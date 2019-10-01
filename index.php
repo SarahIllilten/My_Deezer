@@ -10,7 +10,7 @@ $db = json_decode(file_get_contents('Core'.DIRECTORY_SEPARATOR.'db.json'), true)
 foreach ($db as $key => $value) {
 	define($key, $value);
 }
-//Lancement de l'app et orientation en fonction de l'URL
+
 require_once('Core'.DIRECTORY_SEPARATOR.'Router.php');
 $route = new Router();
 
