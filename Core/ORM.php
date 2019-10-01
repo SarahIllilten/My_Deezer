@@ -93,5 +93,3 @@ class ORM {
 		return $this->getMultipleValue();
 	}
 }
-
-?>

@@ -1,4 +1,5 @@
 <?php
+
 require_once 'Core'.DIRECTORY_SEPARATOR.'ORM.php';
 
 class AlbumModel extends ORM {
@@ -57,5 +58,3 @@ class AlbumModel extends ORM {
 		return $this->getSingleValue();
 	}
 }
-
-?>

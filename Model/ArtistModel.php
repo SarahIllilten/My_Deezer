@@ -1,7 +1,9 @@
 <?php
+
 require_once 'Core'.DIRECTORY_SEPARATOR.'ORM.php';
 
 class ArtistModel extends ORM {
+
 	public $id;
 	
 	public function __construct($param=null) {
@@ -27,5 +29,3 @@ class ArtistModel extends ORM {
 		return $this->find('artists', $name, $limit);
 	}
 }
-
-?>

@@ -1,4 +1,5 @@
 <?php
+
 require_once 'Model'.DIRECTORY_SEPARATOR.'AlbumModel.php';
 require_once 'Model'.DIRECTORY_SEPARATOR.'ArtistModel.php';
 
@@ -33,5 +34,3 @@ class ArtistsController extends Controller {
 		exit($this->render($artist_research));
 	}
 }
-
-?>

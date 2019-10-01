@@ -1,7 +1,9 @@
 <?php
+
 require_once 'Core'.DIRECTORY_SEPARATOR.'ORM.php';
 
 class GenreModel extends ORM {
+
 	public $id;
 	
 	public function __construct($param=null) {
@@ -30,5 +32,3 @@ class GenreModel extends ORM {
 		return $this->find('genres', $name, $limit);
 	}
 }
-
-?>

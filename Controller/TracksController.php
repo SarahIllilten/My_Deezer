@@ -40,5 +40,3 @@ class TracksController extends Controller {
 		exit($this->render($track_research));
 	}
 }
-
-?>

@@ -5,7 +5,6 @@ class Router {
 // controller par défaut et méthode par défaut qui sont lancés à l'arrivée sur le site
 	protected $controller ='ErrorController';
 	protected $action = 'main';
-	// les paramètre de la méthode
 	protected $params = [];
 
 	public function __construct() {

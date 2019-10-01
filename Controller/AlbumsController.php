@@ -53,5 +53,3 @@ class AlbumsController extends Controller {
 		exit($this->render($album_list));
 	}
 }
-
-?>

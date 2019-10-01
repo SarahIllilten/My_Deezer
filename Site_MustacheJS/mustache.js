@@ -3,8 +3,6 @@
  * http://github.com/janl/mustache.js
  */
 
-/*global define: false Mustache: true*/
-
 (function defineMustache (global, factory) {
   if (typeof exports === 'object' && exports && typeof exports.nodeName !== 'string') {
     factory(exports); // CommonJS

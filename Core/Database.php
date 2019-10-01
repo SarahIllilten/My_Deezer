@@ -1,6 +1,7 @@
 <?php
 
 class Database {
+
 	private static $instance = NULL;
 	
 	private function __construct() {}
@@ -19,5 +20,3 @@ class Database {
         return self::$instance;
     }
 }
-
-?>

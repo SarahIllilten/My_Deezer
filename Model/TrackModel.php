@@ -1,7 +1,9 @@
 <?php
+
 require_once 'Core'.DIRECTORY_SEPARATOR.'ORM.php';
 
 class TrackModel extends ORM {
+
 	public $id;
 	
 	public function __construct($param=null) {
@@ -45,5 +47,3 @@ class TrackModel extends ORM {
 		return $this->getMultipleValue();
 	}
 }
-
-?>

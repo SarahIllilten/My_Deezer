@@ -3,7 +3,6 @@
 require_once 'Model'.DIRECTORY_SEPARATOR.'GenreModel.php';
 require_once 'Model'.DIRECTORY_SEPARATOR.'AlbumModel.php';
 
-
 class GenresController extends Controller {
 
 	public function get_genres_listAction() {
@@ -32,5 +31,3 @@ class GenresController extends Controller {
 		exit($this->render($genre_research));
 	}
 }
-
-?>
